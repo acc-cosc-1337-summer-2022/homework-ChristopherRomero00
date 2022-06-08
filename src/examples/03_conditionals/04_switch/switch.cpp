@@ -8,4 +8,27 @@
 //returns 'Option 3' when value 3
 //returns 'Option 4' when value 4
 //return 'Invalid Option' otherwise
+std::string menu(int num)
+{
+    std::string result;
 
+    switch(num) // any var/value the equals to an int
+    {
+        case 1:
+            result = "Option 1";
+            break;
+        case 2:
+            result = "Option 2";
+            break;
+        case 3:
+            result = "Option 3";
+            break;
+        case 4:
+            result = "Option 4";
+            break;
+        default:
+            result = "Invalid Option";
+    }
+
+    return result;
+}
