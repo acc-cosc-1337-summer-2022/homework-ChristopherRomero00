@@ -4,6 +4,9 @@ using std::cout;
 
 int main()
 {
+    //int num = 5;
+    //reference_parameter(num);  
+
     int num = 5;
     cout<<num<<"\n";
     cout<<"Size of num: "<<sizeof(num)<<"\n";
