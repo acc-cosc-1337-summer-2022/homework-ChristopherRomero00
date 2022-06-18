@@ -10,12 +10,12 @@
 //return 'Invalid Option' otherwise
 std::string menu(int num)
 {
-    std::string result;
+    int result;
 
     switch(num) // any var/value the equals to an int
     {
         case 1:
-            result = "Option 1";
+            result = 11;
             break;
         case 2:
             result = "Option 2";
