@@ -6,7 +6,9 @@ using std::vector;
 
 int main()
 {
-    vector<int> nums{10, 5, 2}; //create a vector in it to 3 elements
+    int nn; // not a class
+
+    vector<int> nums{10, 5, 2}; //create a vector in it to 3 elements; vector is a class!!
     cout<<nums[0]<<"\n";
     cout<<"\nThe size of nums is: "<<nums.size()<<"\n";
 
